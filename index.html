@@ -1,5 +1,3 @@
-
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -12,49 +10,219 @@
 </head>
 
 <body>
+<header class="intro">
+<div class="intro-row">
+<div class="intro-photo">
+<img src="k.JPG" alt="Zeinab Zolaktaf" />
+</div>
+<div class="intro-text">
 <h1>Zeinab Zolaktaf</h1>
 
-<p><img height="175" src="k.JPG" alt="Zeinab Zolaktaf" /></p>
-
-<p>
-Applied Scientist specializing in LLM applicaitons and production machine learning.<br />Canada.<br />
-Email: z.lastname @gmail.com
+<p class="contact-row">
+Vancouver, Canada
+<a href="mailto:z.zolaktaf@gmail.com" aria-label="Email" title="Email">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M2 5.5C2 4.67 2.67 4 3.5 4h17c.83 0 1.5.67 1.5 1.5v13c0 .83-.67 1.5-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13zm2.2.3 7.3 5.4a.8.8 0 0 0 .95 0l7.3-5.4a.3.3 0 0 0-.18-.55H4.38a.3.3 0 0 0-.18.55z"/></svg>
+</a>
+<a href="https://github.com/zainabzf" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.61-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.2C22 6.58 17.52 2 12 2z"/></svg>
+</a>
+<a href="https://www.linkedin.com/in/zainabzolaktaf/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.94 6 2.5 6S0 4.88 0 3.5 1.04 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.25h4V23h-4V8.25zm7.25 0h3.83v2.01h.05c.53-1 1.84-2.06 3.79-2.06 4.06 0 4.81 2.67 4.81 6.14V23h-4v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V23h-4V8.25z"/></svg>
+</a>
 </p>
 
-<hr />
-
 <p>
-I build practical AI products that move quickly from experimentation to deployment. At Amazon, I have worked on LLM evaluation, summarization, search, and recommendation systems in production ML workflows. My background combines research depth (PhD, UBC; publications in SIGMOD, ICDE, and EDBT) with hands-on product execution across e-commerce and cybersecurity.
+I build tools at the intersection of AI and software engineering — these days that increasingly means using agentic AI itself to do the work: research, building the product, and shipping it to production, with me writing less of the code and more steering the direction.
 </p>
+</div>
+</div>
+</header>
 
-<h3>Core Strengths</h3>
+<nav class="topnav">
 <ul>
-<li>LLM application development and evaluation</li>
-<li>NLP and text classification systems</li>
-<li>End-to-end ML pipelines and MLOps (AWS, Kubernetes, Docker)</li>
-<li>Recommender systems and user-centric ML design</li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#theses">Theses</a></li>
+<li><a href="#posters">Posters &amp; Demos</a></li>
+<li><a href="#talks">Talks</a></li>
+</ul>
+</nav>
+
+<hr class="intro-rule" />
+
+<main class="content">
+<h3 id="experience">Experience</h3>
+
+<div class="entry">
+<h4>Amazon — Applied Scientist (2022–Present), Vancouver, Canada</h4>
+<ul>
+<li>Architected the core LLM experimentation and evaluation toolkit used across production generative AI applications</li>
+<li>Built automated LLM-based judges for quality assurance in both development and deployment</li>
+<li>Led Amazon’s internal Generative AI reading group and workshop for science and engineering collaboration on GenAI projects</li>
+</ul>
+</div>
+
+<div class="entry">
+<h4>Elpha Secure — Senior Applied Scientist (2021–2022), Vancouver, Canada</h4>
+<ul>
+<li>Led cross-team efforts building ML products for cybersecurity, mainly anomaly detection and classification</li>
+<li>Designed an ML pipeline to speed up experimentation and deployment</li>
+<li>Automated model deployment with lightweight, scalable Kubernetes scripts</li>
+</ul>
+</div>
+
+<div class="entry">
+<h4>Olyns — Machine Learning Consultant (2021), San Francisco, USA</h4>
+<ul>
+<li>Verified existing ML models and supported their deployment on AWS</li>
+</ul>
+</div>
+
+<div class="entry">
+<h4>Georgian — Applied Data Scientist (2020–2021), Toronto, Canada</h4>
+<ul>
+<li>Performed deep error analysis on an existing ML product to help business and engineering stakeholders understand its behavior</li>
+<li>Designed NLP models for hierarchical text classification in the financial and marketing domain</li>
+</ul>
+</div>
+
+<div class="entry">
+<h4>EhsAI — NLP and Machine Learning Scientist (2019–2020), Vancouver, Canada</h4>
+<ul>
+<li>Built NLP deep learning models for document intelligence in the environment, health, and safety domain</li>
+<li>Designed data augmentation and synthetic data generation methods to reduce manual labeling</li>
+<li>Built an ML framework for deploying and evaluating pretrained language models for classification tasks</li>
+</ul>
+</div>
+
+<div class="entry">
+<h4>PhD, University of British Columbia (2012–2019), Vancouver, Canada</h4>
+<ul>
+<li>Designed recommender systems for data exploration, published at ICDE and UMAP</li>
+<li>Built deep learning models (LSTM/CNN) to predict SQL query properties before execution, published at SIGMOD</li>
+<li>Developed statistical methods for estimating SQL query answer properties in data integration settings, published at EDBT</li>
+</ul>
+</div>
+
+<div class="entry">
+<h4>MSc, Dalhousie University (2009–2012), Halifax, Canada</h4>
+<ul>
+<li>Built a statistical topic model for question answering and automatic tagging in community Q&amp;A archives</li>
+<li>Studied expertise modeling to route new questions to the right experts</li>
+</ul>
+</div>
+
+<div class="entry">
+<h4>BSc in Computer Software Engineering, Isfahan University (2004–2008), Isfahan, Iran</h4>
+<ul>
+<li>Researched AI and robotics as part of the “UI-AI” RoboCup team, building autonomous soccer-playing agents</li>
+</ul>
+</div>
+
+<hr />
+
+<h3 id="publications">Publications</h3>
+
+<article class="publication">
+<h4><a href="https://openproceedings.org/2023/conf/edbt/paper-173.pdf">Workload-Aware Query Recommendation Using Deep Learning</a> (EDBT, 2023)</h4>
+<p>This paper studies how workload context can improve recommendations for database queries. It uses deep learning to suggest useful queries while accounting for the patterns and needs represented in a user's existing workload.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://dl.acm.org/doi/abs/10.1145/3318464.3380602">Facilitating SQL Query Composition and Analysis</a> (SIGMOD, 2020)</h4>
+<p>This work presents techniques for helping people construct and understand SQL queries. It focuses on supporting the full interaction around a query, from composing a statement to examining its behavior and results.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://doi.org/10.1145/3335783.3335800">Improvement of SQL Recommendation on Scientific Database</a> (SSDBM, 2019)</h4>
+<p>This paper investigates how SQL recommendations can be improved for scientific databases. The work considers the specialized workloads and query patterns found in scientific data analysis to make recommendations more useful to researchers.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://doi.org/10.1109/ICDE.2018.00023">A Generic Top-N Recommendation Framework for Balancing Accuracy, Novelty, and Coverage</a> (ICDE, 2018)</h4>
+<p>This paper introduces a general framework for designing Top-N recommenders that balance several competing goals. In addition to accuracy, it considers whether recommendations are novel and whether they provide broad coverage of the available items.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://dl.acm.org/doi/10.1145/3213586.3226216">Bridging the Gap Between User-Centric and Offline Evaluation of Recommendation Systems</a> (UMAP, 2018)</h4>
+<p>This work examines the relationship between offline recommender-system metrics and the experience of real users. It highlights why evaluation should connect algorithmic measurements with user-centered outcomes rather than relying on a single offline score.</p>
+</article>
+
+<article class="publication">
+<h4><a href="http://ceur-ws.org/Vol-1882/paper11.pdf">Facilitating User Interaction With Data</a> (PhD@VLDB, 2017)</h4>
+<p>This research explores ways to make data systems more approachable for people who need to ask questions of data. It brings together query composition, recommendation, and answer analysis to support users throughout an interactive data exploration process.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://doi.org/10.5441/002/edbt.2015.09">Extracting Aggregate Answer Statistics for Integration</a> (EDBT, 2015)</h4>
+<p>This paper studies how aggregate statistics about answers can be extracted and used to support data integration. The approach helps systems reason about query answers and combine information in a way that is useful for subsequent analysis.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://doi.org/10.1145/2187980.2188202">Finding Expert Users in Community Question Answering</a> (WWW, 2012)</h4>
+<p>This work investigates how to identify expert contributors in community question-answering archives. It uses signals from user activity and answered questions to help distinguish knowledgeable participants who can provide reliable guidance.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://pdfs.semanticscholar.org/aa91/f9835f006649bec6483af3ab97b6cfe5a66b.pdf">Modeling Community Question Answering Archives</a> (NeurIPS, 2011)</h4>
+<p>This paper models the content and activity found in community question-answering archives. The goal is to better understand how questions, answers, and contributors relate to one another in these collaborative knowledge spaces.</p>
+</article>
+
+<h3 id="theses">Theses</h3>
+
+<article class="publication">
+<h4><a href="https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0387205">Facilitating User Interaction With Data</a> (PhD Thesis, UBC, 2019)</h4>
+<p>This dissertation develops methods for helping users explore data, compose queries, and interpret query answers. It combines user-centered interaction design with recommendations and analysis techniques for making database systems easier to use.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://pdfs.semanticscholar.org/f772/f526403f97bd2e81b92f8c926d980e5aa2a5.pdf">Probabilistic Modeling in Community-Based Question Answering Services</a> (MSc Thesis, Dalhousie, 2012)</h4>
+<p>This thesis applies probabilistic modeling to community-based question-answering services. It studies the people and content in these systems to improve understanding of expertise, participation, and the organization of shared knowledge.</p>
+</article>
+
+<h3 id="posters">Posters and Demos</h3>
+
+<article class="publication">
+<h4><a href="https://scholar.google.com/scholar?q=%22Facilitating+Data+User+Interaction+Data+With+Data%22">Facilitating Data User Interaction With Data</a> (Microsoft Research AI Breakthroughs Workshop, 2019)</h4>
+<p>This demonstration presents an interactive approach to helping people work with data. It emphasizes practical user interaction and shows how research ideas can support more direct and productive data exploration.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://scholar.google.com/scholar?q=%22Facilitating+Data+Exploration%2C+Query+Composition%2C+and+Query+Answer+Analysis%22">Facilitating Data Exploration, Query Composition, and Query Answer Analysis</a> (NWDS, 2018)</h4>
+<p>This demo brings together several stages of a data workflow in one user-facing experience. It supports exploring data, composing queries, and examining answers so that users can move more easily from an initial question to an informed result.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://scholar.google.com/scholar?q=%22Personalized+Top-N+Recommendation+For+Promoting+Long-Items%22">Personalized Top-N Recommendation for Promoting Long-Items</a> (WIML/NeurIPS, 2017)</h4>
+<p>This work considers how personalized Top-N recommendation can help surface longer or less frequently selected items. It focuses on recommendation strategies that account for user interests while improving visibility beyond the most obvious short-list choices.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://scholar.google.com/scholar?q=%22UI-AI+2007+3D+Soccer+Simulation+Team+Description%22">UI-AI 2007 3D Soccer Simulation Team Description</a> (RoboCup CD, Springer-Verlag, China, 2008)</h4>
+<p>This team description documents the design and engineering of the UI-AI 3D soccer simulation team. It describes the approach used to coordinate simulated players and build a competitive multi-agent soccer system.</p>
+</article>
+
+<article class="publication">
+<h4><a href="https://scholar.google.com/scholar?q=%22UI-AI+2007+3D+Soccer+Simulation+Team+Description%22">UI-AI 2007 3D Soccer Simulation Team Description</a> (RoboCup CD, Springer-Verlag, USA, 2007)</h4>
+<p>This earlier team description records the UI-AI team's 3D soccer simulation work and system design. It provides a snapshot of the multi-agent coordination and implementation ideas used for the RoboCup competition.</p>
+</article>
+
+<h3 id="talks">Talks</h3>
+<ul>
+<li>Generative AI Tutorial — Amazon Machine Learning Conference (AMLC)</li>
+<li>Facilitating SQL Query Composition and Analysis — SIGMOD Conference, Portland, OR (2020)</li>
+<li>Facilitating User Interaction With Data — Huawei Noah's Ark Lab, Toronto (2019)</li>
+<li>Facilitating User Interaction With Data — Thomson Reuters, Toronto (2019)</li>
+<li>Bridging the Gap Between User-Centric and Offline Evaluation of Recommendation Systems — UMAP Workshop, Singapore (2018)</li>
+<li>A Generic Top-N Recommendation Framework for Balancing Accuracy, Novelty, and Coverage — ICDE, Paris (2018)</li>
+<li>Facilitating User Interaction With Data — PhD@VLDB Workshop, Munich (2017)</li>
+<li>Extracting Aggregate Answer Statistics for Integration — EDBT, Brussels (2015)</li>
 </ul>
 
 <hr />
 
-<h3>Selected Experience</h3>
-<ul>
-<li><strong>Amazon, Applied Scientist (2022-Present):</strong> Built and scaled LLM evaluation, summarization, and recommendation systems for production use.</li>
-<li><strong>Elpha Secure, Senior Applied Scientist (2021-2022):</strong> Built cybersecurity ML products and deployment-ready pipelines for faster experimentation and delivery.</li>
-<li><strong>Georgian and EhsAI (2019-2021):</strong> Developed NLP models, improved model quality through deep error analysis, and shipped practical ML solutions.</li>
-</ul>
+<p>&#169; 2026 Zeinab Zolaktaf</p>
 
-<hr />
-
-<h3>Education</h3>
-<ul>
-<li>PhD in Computer Science, University of British Columbia</li>
-<li>MSc in Computer Science, Dalhousie University</li>
-<li>BSc in Computer Software Engineering, Isfahan University</li>
-</ul>
-
-<hr />
-
-<p>&copy; 2026 Zeinab Zolaktaf</p>
+</main>
 </body>
 </html>
